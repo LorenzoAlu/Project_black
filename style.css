@@ -1,0 +1,25 @@
+
+
+*{
+    font-family: 'Jura', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+body{
+    margin: 0px;
+}
+
+:root {
+    --main-color: #2B9DF4;
+}
+
+/* header  */
+
+header {
+    background-image: url(./media/moon.jpg);
+    height: 100vh;
+}
