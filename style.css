@@ -138,15 +138,23 @@ border-top: 1px solid  var(--main-color) ;
 border-top: 1px solid  var(--main-color) ;
 }
 
-/* .button-custom::before {
-    position: absolute;
-    content: "";
-    top: -2px ;
-    left: -10px;
-    height: 10%;
-    width: 10px;
-    border-left: 4px solid  var(--main-color)  ;
-border-bottom: 4px solid  var(--main-color) ;
+/* footer  */
 
-} */
+.footer-image {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 92%),  url(./media/footer.jpg);
+    height: 100vh;
+    background-size: cover,;
+    background-position: center;
+}
 
+
+.border-footer {
+    width: 50% !important;
+    height: 3px;
+    contain: "";
+    background-color: var(--main-color);
+    border-radius: 50%;
+    border: 1px solid var(--main-color); 
+    margin-bottom: 20px;
+    margin-top: 50px !important;
+}
